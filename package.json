@@ -1,0 +1,44 @@
+{
+  "name": "feathers-vuex-quick-start",
+  "version": "0.1.0",
+  "description": "Deprecated see \nhttps://stackblitz.com/edit/feathersjs-ebux7j",
+  "keywords": ["vuex", "vue", "feathers", "feathers-vuex"],
+  "private": false,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@babel/core": "7.16.0",
+    "@babel/runtime": "7.16.3",
+    "@feathersjs/feathers": "4.5.11",
+    "@feathersjs/vuex": "4.0.1-pre.16",
+    "feathers-hooks-common": "5.0.6",
+    "feathers-localstorage": "5.2.0",
+    "vue": "3.2.22",
+    "vuetify": "3.0.0-alpha.11",
+    "vuex": "4.0.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "4.5.15",
+    "@vue/cli-plugin-eslint": "4.5.15",
+    "@vue/cli-service": "4.5.15",
+    "@vue/compiler-sfc": "^3.0.0-0",
+    "eslint": "8.2.0",
+    "eslint-plugin-vue": "8.1.1",
+    "@babel/eslint-parser": "7.16.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": ["plugin:vue/vue3-essential", "eslint:recommended"],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": ["> 1%", "last 2 versions", "not dead"]
+}
